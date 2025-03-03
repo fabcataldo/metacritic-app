@@ -1,8 +1,8 @@
 import { Link } from "expo-router";
 import { Pressable, ScrollView, Text } from "react-native";
-import { HomeIcon } from "../components/Icons";
+import { HomeIcon } from "../../components/Icons";
 import { styled } from "nativewind";
-import Screen from "../components/Screen";
+import Screen from "../../components/Screen";
 const StyledPressable = styled(Pressable);
 
 export default function About() {
@@ -28,6 +28,26 @@ export default function About() {
           Sit magna eu excepteur aliqua ea in minim. Quis excepteur do tempor eu
           non eiusmod reprehenderit sit nostrud qui dolore sunt est. Laboris ea
           et nulla deserunt.
+        </Text>
+        <Text className="text-white text-white/90 mb-4">
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea
+        </Text>
+
+        <Text className="text-white text-white/90 mb-4">
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea
+        </Text>
+
+        <Text className="text-white text-white/90 mb-4">
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea
         </Text>
       </ScrollView>
     </Screen>

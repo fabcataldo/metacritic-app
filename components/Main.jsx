@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
-import { View, ActivityIndicator, FlatList, Pressable } from "react-native";
+import { ActivityIndicator, FlatList } from "react-native";
 import { getLatestGames } from "../lib/metacritic";
-import { Logo } from "./Logo";
 import { AnimatedGameCard } from "./AnimatedGameCard";
-import { Link } from "expo-router";
-import { CircleInfoIcon } from "./Icons";
 import Screen from "./Screen";
 
 export function Main() {
